@@ -105,19 +105,8 @@ button {
   border-radius: 8px;
 }
 
-.icon-list li:hover {
+.active {
   background-color: var(--checkBack);
-  transition-duration: var(--trDur);
-}
-
-.icon-list-hover {
-  fill: var(--iconColor);
-  transition-duration: var(--trDur);
-}
-
-.icon-list li:hover .icon-list-hover {
-  fill: var(--white);
-  transition-duration: var(--trDur);
 }
 
 .aside-icon-box {
